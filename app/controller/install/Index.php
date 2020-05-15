@@ -16,6 +16,7 @@ use bases\BaseCommon;
 use bases\BaseController;
 use mysqli;
 use think\facade\View;
+use exceptions\BaseException;
 
 class Index extends BaseController
 {
